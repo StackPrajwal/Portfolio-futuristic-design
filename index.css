@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --hover: #fddd23;
+  --white: #ffffff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+/* Set up a basic responsive layout */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 0 20px; /* Adjust as needed */
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive typography */
+body {
+  font-family: Arial, sans-serif; /* Choose your preferred font stack */
+  font-size: 16px; /* Adjust as needed */
+  background-color: #1a202c;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .container {
+    padding: 0 10px; /* Adjust as needed */
+  }
+}
+
+/* Additional media queries for even smaller screens if needed */
+@media (max-width: 480px) {
+  /* Adjust styles for even smaller screens */
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  width: 18%;
+  height: 100%;
+  /* background-color: #262d3b; */
+  position: absolute;
+ 
+  left: 0;
+  top: 0;
+}
+
+#logo {
+  font-size: 35px;
+  color: #d1d5db;
+  text-align: center;
+  margin-top: 20px;
+
+  font-family: "Lobster", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#nav-item {
+  margin-left: 20%;
+  font-size: 25px;
+  color: #d1d5db;
+  font-weight: 300;
+  position: sticky;
+  
+}
+
+#nav-item a {
+  text-decoration: none;
+  list-style-type: none;
+  width: 60%;
+}
+#nav-item ul li {
+  padding-top: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--white);
+  
+}
+
+#nav-item ul li:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  color: var(--hover);
+}
+
+#header {
+  background-color: red;
+  width: 75%;
+  height: 25%;
+  position: absolute;
+  top: 3%;
+  left: 23%;
+ 
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,32,44,1) 35%, rgba(0,45,136,1) 100%);
+
+border-radius: 20px;
+  box-shadow:   0 0 7px #fff,
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 22px rgba(0, 94, 255, 0.598),
+  0 0 35px rgba(0, 123, 255, 0.698),
+  0 0 50px rgba(0, 183, 255, 0.626)
+  /* 0 0 102px #0fa, */
+  /* 0 0 1px #0fa;; */ ;
+}
+
+#photo{
+    /* margin-top: 8px; */
+    margin-left: 25px;
+    margin-top: 2%;
+    height: 80%;
+    border-radius: 20%;
+    border: #d1d5db solid 3px;
+}
+
+#name{
+    font-size: 40px;
+    position: absolute;
+    left: 18%;
+    top: 25%;
+    color: var(--white);
+
+}
+
+#subhead{
+    font-size: 20px;
+    position: absolute;
+    left: 18%;
+    top: 50%;
+    color: rgb(193, 193, 193);
+
+}
+
+
+
+#line1{
+    height: 1px;
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 25%;
+}
+
+.card {
+    margin-left: 30px;
+    width: 210px;
+    height: 274px;
+    background-image: linear-gradient(163deg, #ffffff 0%, #ffffff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+   .card2 {
+    width: 210px;
+    height: 274px;
+    background-color: #1a1a1a;
+    border-radius:19px;
+    transition: all .2s;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.3);
+   }
+
+   #project{
+
+    width: 70%;
+    /* background-color: white; */
+    position: absolute;
+    top: 350px;
+    left: 25%;
+    color: white;
+   }
+
+   .project-container{
+    
+    display: inline-flex;
+    padding: 10px;
+    margin-top: 20px;
+   }
+
+   #line2{
+
+    height: 100%;
+    width: 1px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 19%;
+    box-shadow:   0 0 5px #fff,
+    0 0 10px #fff ;
+   }
+
+   #line3{
+    height: 1px;
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    top: 750px;
+    left: 25%;
+   }
+
+
+   /* From uiverse.io by @alshahwan */
+/* From uiverse.io by @alshahwan */
+.buttonl {
+    background-color: #fff;
+    border: 1px solid #0077b5;
+    padding: 5px;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+    opacity: 20%;
+  }
+  
+  .buttonl p {
+    position: absolute;
+    top: 0.4em;
+    left: 1.2em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #0077b5;
+    
+  }
+  
+  .buttonl svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  .buttonl:hover p {
+    left: 0.6em;
+    color: #fff;
+    opacity: 100%;
+  }
+  
+  button:hover svg {
+    opacity: 1;
+    opacity: 100%;
+  }
+  
+  button:hover {
+    background-color: #0077b5;
+    opacity: 100%;
+  }
+  
